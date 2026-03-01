@@ -1,4 +1,4 @@
-# DeepMDA-piRNA --- Autoencoder + LightGBM for piRNA--Disease Association Prediction
+# Autoencoder + LightGBM for piRNA--Disease Association Prediction
 
 This project implements a deep learning + gradient boosting framework
 for predicting **piRNA--disease associations**.
