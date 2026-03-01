@@ -5,7 +5,7 @@ for predicting **piRNA--disease associations**.
 
 The pipeline combines:
 
--   Deep Autoencoder (TensorFlow/Keras) for nonlinear feature extraction
+-   Deep Autoencoder for nonlinear feature extraction
 -   LightGBM for classification
 -   5-Fold Cross Validation
 -   ROC and Precision--Recall evaluation
@@ -119,18 +119,3 @@ LightGBM is trained on concatenated raw + encoded features.
 -   scikit-learn
 -   Matplotlib
 
-------------------------------------------------------------------------
-
-## Notes
-
--   Normalization is applied inside each fold to prevent data leakage.
--   Autoencoder is trained only on training data in each fold.
--   Early stopping is enabled in LightGBM.
-
-------------------------------------------------------------------------
-
-## Author
-
-Your Name\
-Your Institution\
-Year
